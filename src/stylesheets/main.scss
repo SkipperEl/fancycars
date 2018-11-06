@@ -1,0 +1,114 @@
+/* General Styling */
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+    font:14px normal Arial, sans-serif;
+    color:#626771;
+    background-color:#fff;
+}
+
+body {
+    padding:1em;
+    text-align: left;
+}
+
+/* Home */
+
+.home {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carListContainer {
+}
+.carListContents {
+    margin-top: 1em;
+}
+.carCardContainer {
+    margin-bottom: 1em;
+}
+
+/* Car List */
+
+.sortSelector {
+    margin-top: 1em;
+}
+
+/* Car Card */
+.carCard {
+    background-color: #eee;
+    padding: 1em;
+}
+
+.carRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.carColumn {
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width:600px) {
+    .carColumn {
+        width: 100%;
+    }
+}
+
+/* Image and text elements */
+
+.mainTitle {
+    font:24px normal Arial, sans-serif;
+    text-align: center;
+}
+
+.carName {
+    font:18px normal Arial, sans-serif;
+    text-align: left;
+    color: #333;
+}
+
+.carType {
+    font:18px normal Arial, sans-serif;
+    text-align: right;
+    color: #888;
+}
+@media screen and (max-width:600px) {
+    .carType {
+        text-align: left;
+    }
+}
+
+.carAvailability {
+    font:14px normal Arial, sans-serif;
+    text-align: left;
+    color: #888;
+}
+
+.carImage {
+    max-width:100%;
+    object-fit: scale-down;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.buyButton {
+    padding: 0.4em;
+    color: #080;
+    font:12px normal Arial, sans-serif;
+    float:right;
+}
+@media screen and (max-width:600px) {
+    .buyButton {
+        float:none;
+        margin-top: 0.5em;
+    }
+}
