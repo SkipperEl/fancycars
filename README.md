@@ -44,6 +44,8 @@ All text strings are hardcoded. Obviously they should be abstracted out and inte
 
 # Q2 re-architecture diagram
 
+The diagram can be found in the root directory of this repository as 'webapp diagram.png'.
+
 I was not entirely clear on the scope of this question. Since this work (and my experience) is focused on React and
 the frontend, I chose to describe the structure of a modern react app. The backend is represented along the top
 as the surface layer components that a web app would interact with, while the main section below describes the
