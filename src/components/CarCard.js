@@ -61,7 +61,7 @@ class component extends React.Component {
 }
 
 component.propTypes = {
-  id: string.isRequired,
+  id: number.isRequired,
   img: string,
   name: string.isRequired,
   make: string,
