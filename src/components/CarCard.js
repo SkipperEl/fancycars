@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from "react-redux";
-import { number, string } from 'prop-types';
+import { func, number, string } from 'prop-types';
 
 import actionTypes from '../actionTypes';
 import { carsWithState } from '../reducers/accessors';
@@ -68,6 +68,7 @@ component.propTypes = {
   model: string,
   year: number,
   availability: string,
+  fetchAvailability: func.isRequired,
 };
 
 component.defaultProps = {

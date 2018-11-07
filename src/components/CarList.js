@@ -1,4 +1,5 @@
 import React from 'react';
+import { array, func} from 'prop-types';
 import { connect } from "react-redux";
 
 import actionTypes from '../actionTypes';
@@ -60,6 +61,12 @@ class component extends React.Component {
       </div>
     );
   }
+}
+
+component.propTypes = {
+  carsByName: array.isRequired,
+  carsByAvailability: array.isRequired,
+  fetchCars: func.isRequired,
 }
 
 const mapStateToProps = state => ({
