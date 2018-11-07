@@ -1,7 +1,6 @@
-# FancyCars.ca React App
+# Q1 FancyCars.ca React App
 
 ## Getting Started
-
     * Clone the repository
     * Within repository root run npm install and npm start
     * View http://localhost:8080 in web browser
@@ -42,3 +41,10 @@ updated in more efficient ways. Ultimately I had to pick something and move on. 
 might have to be reconsidered for a larger one (modulo paging etc).
 
 All text strings are hardcoded. Obviously they should be abstracted out and internationalized.
+
+# Q2 re-architecture diagram
+
+I was not entirely clear on the scope of this question. Since this work (and my experience) is focused on React and
+the frontend, I chose to describe the structure of a modern react app. The backend is represented along the top
+as the surface layer components that a web app would interact with, while the main section below describes the
+various pieces of a react app.
