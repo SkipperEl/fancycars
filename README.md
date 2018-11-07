@@ -22,8 +22,6 @@ disrupting the rest of the app.
 API data state is maintained by redux, however I did use a React component state to handle the sort state due to its
 locality. (I've done it both ways and have complicated thoughts about it).
 
-I used a string rather than a number for car ID as that seemed to make more sense.
-
 ## Future improvements given more time
 
 The React components could be broken down further. In particular, the sort selector should probably be its own thing.
