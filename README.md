@@ -25,11 +25,11 @@ locality. (I've done it both ways and have complicated thoughts about it).
 
 I used a string rather than a number for car ID as that seemed to make more sense.
 
-## Possible improvements
+## Future improvements given more time
 
 The React components could be broken down further. In particular, the sort selector should probably be its own thing.
 
-Data-providing components (containers) could be separated from pure view components.
+Data-providing components (containers) could be separated from (pure) view components.
 
 The Sass files could be cleaned up with common values such as text formats and dimensions defined centrally.
 
@@ -41,4 +41,4 @@ and update both and the sorted versions as needed. Sorting could be done on-dema
 updated in more efficient ways. Ultimately I had to pick something and move on. It's fine for a small data set but
 might have to be reconsidered for a larger one (modulo paging etc).
 
-used all class-based components, should use other types (eg pure funcs)
+All text strings are hardcoded. Obviously they should be abstracted out and internationalized.
