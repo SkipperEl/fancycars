@@ -41,9 +41,11 @@ class component extends React.Component {
 
         <div className="carListContents">
           {cars.map((car, idx) =>
-            <div className="carCardContainer">
+            <div
+              className="carCardContainer"
+              key={idx}
+            >
               <CarCard
-                key={idx}
                 id={car.id}
                 img={car.img}
                 name={car.name}
